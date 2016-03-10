@@ -2,10 +2,8 @@
 class Contacts_m extends CI_Model {
 
     function __construct(){
-        parent::__construct();
-    }
-
-
+        parent::__construct();hs
+dfhwefhadfh
     function addContacts($add){	
 	$this->db->insert('contact',$add);
 	}
